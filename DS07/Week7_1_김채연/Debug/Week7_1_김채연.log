@@ -1,0 +1,3 @@
+﻿  Week7_1_김채연.cpp
+C:\DS\Week7_1_김채연\Week7_1_김채연.cpp(90,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Week7_1_김채연.vcxproj -> C:\DS\Week7_1_김채연\Debug\Week7_1_김채연.exe

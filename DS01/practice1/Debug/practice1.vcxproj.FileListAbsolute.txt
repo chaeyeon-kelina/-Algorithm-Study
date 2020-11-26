@@ -1,0 +1,2 @@
+C:\DS\DS01\practice1\Debug\practice1.exe
+C:\DS\DS01\practice1\Debug\practice1.pdb

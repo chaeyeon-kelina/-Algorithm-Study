@@ -1,0 +1,5 @@
+﻿  Week7_2_김채연.cpp
+C:\DS\Week7_2_김채연\Week7_2_김채연.cpp(82,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\Week7_2_김채연\Week7_2_김채연.cpp(87,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\Week7_2_김채연\Week7_2_김채연.cpp(51): warning C4715: 'dequeue': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Week7_2_김채연.vcxproj -> C:\DS\Week7_2_김채연\Debug\Week7_2_김채연.exe

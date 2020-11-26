@@ -1,0 +1,7 @@
+﻿  Week10_2_김채연.cpp
+C:\DS\DS10\Week10_2_김채연\Week10_2_김채연.cpp(92,10): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element *'입니다.
+C:\DS\DS10\Week10_2_김채연\Week10_2_김채연.cpp(101,10): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element *'입니다.
+C:\DS\DS10\Week10_2_김채연\Week10_2_김채연.cpp(88,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS10\Week10_2_김채연\Week10_2_김채연.cpp(92,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS10\Week10_2_김채연\Week10_2_김채연.cpp(101,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Week10_2_김채연.vcxproj -> C:\DS\DS10\Week10_2_김채연\Debug\Week10_2_김채연.exe

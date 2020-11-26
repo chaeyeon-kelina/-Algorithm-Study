@@ -1,0 +1,6 @@
+﻿  Week9_1_김채연.cpp
+C:\DS\DS09\Project2\Week9_1_김채연.cpp(139,19): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element *'입니다.
+C:\DS\DS09\Project2\Week9_1_김채연.cpp(134,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS09\Project2\Week9_1_김채연.cpp(139,13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS09\Project2\Week9_1_김채연.cpp(120,20): warning C4101: 'dlt' :참조되지 않은 지역 변수입니다.
+  Project2.vcxproj -> C:\DS\DS09\Project2\Debug\Project2.exe

@@ -1,0 +1,6 @@
+﻿  Week13_1_김채연.cpp
+C:\DS\DS13\Week13_1_김채연\Week13_1_김채연.cpp(13,6): warning C4101: 'l_count' :참조되지 않은 지역 변수입니다.
+C:\DS\DS13\Week13_1_김채연\Week13_1_김채연.cpp(13,15): warning C4101: 'r_count' :참조되지 않은 지역 변수입니다.
+C:\DS\DS13\Week13_1_김채연\Week13_1_김채연.cpp(62,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS13\Week13_1_김채연\Week13_1_김채연.cpp(66,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Week13_1_김채연.vcxproj -> C:\DS\DS13\Week13_1_김채연\Debug\Week13_1_김채연.exe

@@ -1,0 +1,2 @@
+C:\DS\DS09\Project2\Debug\Project2.exe
+C:\DS\DS09\Project2\Debug\Project2.pdb

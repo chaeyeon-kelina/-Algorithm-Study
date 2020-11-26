@@ -1,0 +1,7 @@
+﻿  Week3_3_김채연.cpp
+C:\DS\DS03\Week3_3_김채연\Week3_3_김채연.cpp(23,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS03\Week3_3_김채연\Week3_3_김채연.cpp(29,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS03\Week3_3_김채연\Week3_3_김채연.cpp(44,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS03\Week3_3_김채연\Week3_3_김채연.cpp(63,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\DS\DS03\Week3_3_김채연\Week3_3_김채연.cpp(69,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Week3_3_김채연.vcxproj -> C:\DS\DS03\Week3_3_김채연\Debug\Week3_3_김채연.exe
