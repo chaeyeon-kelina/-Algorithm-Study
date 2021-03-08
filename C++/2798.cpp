@@ -3,12 +3,13 @@
 using namespace std;
 
 int main() {
-    int num, target,goal,sum = 0;
+    int num, target = 0;
+    int goal,sum = 0;
     int min = 9999999;
     int arr[MAX] = {0, };
     cin >> num >> target;
     for(int i = 0; i < num; i++)
-        cin >> arr[i];
+        cin >> arr[i];      //배열에 집어넣기
 
     for(int i = 0; i < num-2; i++)
         for(int j = i+1; j < num-1; j++)
@@ -21,4 +22,6 @@ int main() {
                 }
             }
     cout << goal;
+    
+    return 0;
 }
