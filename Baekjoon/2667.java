@@ -29,7 +29,7 @@ public class Main {
              map[i][j] = input.charAt(j)-'0';
             }
         }
-        
+       
         for(int i=0;i<N;i++) {
             for(int j=0;j<N;j++)        
                 if(map[i][j] == 1 && visited[i][j] == 0)    
