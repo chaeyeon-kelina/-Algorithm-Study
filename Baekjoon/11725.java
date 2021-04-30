@@ -35,3 +35,4 @@ public class Main {
 		for(int i = 2; i <= n; i++) System.out.println(parents[i]);
 	}
 }
+
