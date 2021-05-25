@@ -43,6 +43,7 @@ public class Main {
 	}
 }
 
+
 class FenwickTree {
 	private int n, tree[];
 
