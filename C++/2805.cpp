@@ -47,3 +47,4 @@ int main() {
     printf("%lld\n", binary_search(tree, 0, MAX));
     return 0;
 }
+
