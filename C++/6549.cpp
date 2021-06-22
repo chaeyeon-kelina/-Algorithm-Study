@@ -17,7 +17,6 @@ int main(void)
                 // 스택에서 pop시키기 전에 높이 저장
                 long long height = h[s.top()];
                 s.pop();
-                // pop했을 때 스택이 비게 되면 그 너비는 i번째 직사각형을 제외한 스택에 들어있던 직사각형의 개수가 너비가 된다.
                 long long width = i;
                 // pop했을 때 스택에 아직도 있다면 i~s.top()의 길이가 너비가 된다.
                 if (!s.empty()) width = i - s.top() - 1;
