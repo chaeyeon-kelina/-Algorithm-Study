@@ -9,9 +9,9 @@ public class B_5052 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int t = sc.nextInt();
-	    StringBuilder sb = new StringBuilder();
+	    	StringBuilder sb = new StringBuilder();
 	 
-	    while (t-- > 0) {
+		while (t-- > 0) {
 	        int n = sc.nextInt();
 	        String[] array = new String[n];
 	        boolean flag = true;
