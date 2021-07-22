@@ -1,38 +1,13 @@
-import java.io.*;
-import java.util.StringTokenizer;
-
-public class Main {
-
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		
-		
-		int[] answers = {1,3,2,4,2};
-
-		Solution sol = new Solution();
-		sol.solution(answers);
-		
-		bw.flush();
-		bw.close();
-		br.close();
-		
-	}
-	
-}
-
+import java.util.ArrayList;
 class Solution {
     public int[] solution(int[] answers) {
         int[] answer = {};
-        int a=0;
-        int b=0;
-        int c=0;
-        int max = 0;
+        int a=0, b=0, c=0;
         int n = answers.length;
         int[] one = {1,2,3,4,5};
         int[] two = {2, 1, 2, 3, 2, 4, 2, 5};
         int[] three = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
-        System.out.println(a);
+
         for(int i=0; i<n; i++){
             if(answers[i]==one[i%5])
             	a++;
@@ -42,46 +17,17 @@ class Solution {
                 c++;
         }
         
-        if(a==b && b==c) {
-        	answer[0]=a;
-        	answer[1]=b;
-        	answer[2]=c;
-        }
-        else if(a==b) {
-        	if(a>c) {
-        		answer[0]=a;
-            	answer[1]=b;
-        	}
-        	else
-        		answer[0]=c;
-        }
-        else if(a==c) {
-        	if(a>b) {
-        		answer[0]=a;
-            	answer[1]=c;
-        	}
-        	else
-        		answer[0]=b;
-        }
-        else if(b==c) {
-        	if(a<b) {
-        		answer[0]=b;
-            	answer[1]=c;
-        	}
-        	else
-        		answer[0]=a;
-        }
-        else {
-        	if(a>b)
-            	max = a;
-            else
-            	max = b;
-            if(max<c)
-            	max = c;
-            answer[0]=max;
-        }
+        int max = Math.max(Math.max(a, b), c);
+        ArrayList <Integer> list = new ArrayList<Integer>();
+        if(max==a)	list.add(1);
+        if(max==b)	list.add(2);
+        if(max==c)	list.add(3);
         
-        System.out.println(answer[0]);
+        answer = new int[list.size()];
+        
+        for(int i=0; i<answer.length; i++)
+        	answer[i] = list.get(i);
+        
         return answer;
     }
 }
