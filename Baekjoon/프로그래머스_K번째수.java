@@ -3,6 +3,7 @@ class Solution {
         int[] answer = {};
         
         int[] arr;
+		
         int i=0, j=0, k=0;
         int t=0;
         answer = new int[commands.length];
