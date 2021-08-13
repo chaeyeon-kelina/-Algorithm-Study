@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int solution(int n, int m) {
-	//ÀÌ ¾Æ·¡ ÇÊ¿äÇÑ º¯¼ö ¹× ÇÊ¿äÇÑ ÄÚµå¸¦ ÀÛ¼ºÇÏ¼¼¿ä
+	//ì´ ì•„ë˜ í•„ìš”í•œ ë³€ìˆ˜ ë° í•„ìš”í•œ ì½”ë“œë¥¼ ì‘ì„±í•˜ì„¸ìš”
 	int answer = 0;
 	while (n != 0) {
 		answer++;
@@ -13,8 +13,8 @@ int solution(int n, int m) {
 }
 
 int main() {
-	int m;	//ÀÔ°í
-	int n;	//³ëÆ®ºÏ Àç°í
+	int m;	//ì…ê³ 
+	int n;	//ë…¸íŠ¸ë¶ ì¬ê³ 
 	int answer;
 	scanf("%d %d", &n, &m);
 	answer = solution(n, m);
