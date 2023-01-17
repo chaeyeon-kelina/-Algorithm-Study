@@ -1,4 +1,4 @@
-//ë°±ì¤€ 10171 : ê³ ì–‘ì´
+//¹é??? 10171 : °í¾ç???
 #include <bits/stdc++.h>
 using namespace std;
 int main(void) {

@@ -1,4 +1,4 @@
-//¹éÁØ 10871 : Xº¸´Ù ÀÛÀº ¼ö
+ï»¿//ë°±ì¤€ 10871 : Xë³´ë‹¤ ì‘ì€ ìˆ˜
 #include <bits/stdc++.h>
 using namespace std;
 int main(void){

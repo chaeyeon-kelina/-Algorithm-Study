@@ -1,4 +1,4 @@
-//¹éÁØ 10808 : ¾ËÆÄºª °³¼ö
+//ë°±ì¤€ 10808 : ì•ŒíŒŒë²³ ê°œìˆ˜
 #include <bits/stdc++.h>
 using namespace std;
 int freq[26];
