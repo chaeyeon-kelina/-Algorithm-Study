@@ -24,4 +24,5 @@ int main(void){
         occur[arr[i]] = true;
     }
     cout << ans;
+    
 }
