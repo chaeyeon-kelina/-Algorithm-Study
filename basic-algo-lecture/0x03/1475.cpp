@@ -26,4 +26,5 @@ int main(void){
     int max = arr[0]+0.5;       //반올림
     cout << max;
     
+    
 }
