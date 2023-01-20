@@ -4,7 +4,6 @@ using namespace std;
 int main(void){
     ios::sync_with_stdio(0);
     cin.tie(0);
-
     list<int> edi;
     string s;   //초기에 편집기에 입력되어 있는 문자열
     cin >> s;
@@ -44,4 +43,6 @@ int main(void){
     
     for(char i:edi)
         cout << i;
+    
+
 }
