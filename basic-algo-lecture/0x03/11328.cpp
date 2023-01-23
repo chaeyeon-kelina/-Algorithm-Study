@@ -8,11 +8,32 @@ int main(void)
 
     int n;
     cin >> n;
-    bool same[1001];
+    int same[26] = {};
     int k = 0;
     for (k = 0; k < n; k++)
     {
-        int ans = 1;
+        fill(same, same+26, 0);
+        string str1, str2;
+        cin >> str1 >> str2;
+        for(auto i : str1)
+            same[i - 'a']++;
+        for(auto i : str2)
+            same[i - 'a']--;
+        bool possible = true;
+        for(int i=0; i<26; i++){
+            if(same[i] != 0){
+                possible = false;
+                continue;
+            }
+        }
+        if(possible)
+            cout << "Possible\n";
+        else
+            cout << "Impossible\n";
+    }
+}
+/*
+int ans = 1;
         fill(same, same + 1001, false);
         string str1 = "";
         string str2 = "";
@@ -41,5 +62,4 @@ int main(void)
         {
             cout << "Possible\n";
         }
-    }
-}
+*/
