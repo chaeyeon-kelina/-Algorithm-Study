@@ -13,7 +13,21 @@ int main(void){
         cin >> t;
         s.push(t);
     }
+    stack<int> s2;
+    while(n--){
+        int num;
+        num = s.top();
+        s.pop();
+        if(s.top() < num){
+            s2.push(num);
+            num = s.top();
+            s.pop();
+        }
+        if(s2.top() < num){
+            
+        }
+    }
 
-    
+
 
 }
