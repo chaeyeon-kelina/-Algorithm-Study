@@ -13,5 +13,7 @@ int main(void){
         cin >> t;
         s.push(t);
     }
+
     
+
 }
